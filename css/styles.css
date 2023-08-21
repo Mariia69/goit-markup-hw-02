@@ -12,24 +12,21 @@
 button {
   cursor: pointer;
 }
-body{font-family: "Roboto", sans-seri;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);}
-.header {
-    justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  background: var(--white, #fff);
+body{font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFF;
+    color: #434455}
+
+    .header {justify-content: center;
+    flex-shrink: 0;
+  background: #fff;
 }
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-.header-nav {display: flex;
-    align-items: flex-start;
-    
-}
+.header-nav 
 .name-web{
   color: var(--iris-color);
 font-family: Raleway;
@@ -44,11 +41,7 @@ text-transform: uppercase;}
     line-height: 1.16; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;}
-    .menu-list{display: inline-flex;
-        align-items: flex-start;
-        
-        
-    }
+    .menu-list{display: inline-flex; }
     .menu-item{color: var(--navyblue, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
