@@ -9,23 +9,18 @@
 .link {
     text-decoration: none;
 }
-button {
-  cursor: pointer;
-}
+
 body{font-family: "Roboto", sans-serif;
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
     color: #434455}
 
-    .header {justify-content: center;
+    .header-page {justify-content: center;
     flex-shrink: 0;
   background: #fff;
 }
-.container {padding: 0 15px;
-  margin: 0 auto;
-}
-.header-nav 
-.name-web{
+
+.logo{
   color: var(--iris-color);
 font-family: "Raleway"sans-serif;
 font-size: 18px;
@@ -46,12 +41,19 @@ text-transform: uppercase;}
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+    text-decoration: none;
     }
-    .address{height: 72px;
-        flex-shrink: 0;
-        background: var(--white, #FFF);}
-.address-list{color: var(--slate-colorlate-color);
-    font-family: "Roboto"sans-serif;
-    font-size: 16px;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.32px;}
+    .menu-item:hover,
+    .menu-item:focus{background-color: #404bbf;}
+    .address{
+      color: #434455;
+      line-height: 1.5;
+      letter-spacing: 0.02;
+      font-style: normal;
+    }
+    .address-item{
+      letter-spacing: 0.02;
+      list-style-type: none;
+    }
+    .address-item:focus,
+    .address-item:hover{background-color: #404bbf;}
