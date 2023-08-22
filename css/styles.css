@@ -22,7 +22,7 @@ body{font-family: "Roboto", sans-serif;
 }
 
 .logo{
-  color: var(--iris-color);
+  color:#4d5ae5;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -30,7 +30,8 @@ line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;}
 .logo:focus,
-.logo:hover{background-color: #404bbf;}{}
+.logo:hover{background-color: #404bbf;}
+
 .studio{color: var(--navyblue, #2E2F42);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -38,6 +39,7 @@ text-transform: uppercase;}
     letter-spacing: 0.54px;
     text-transform: uppercase;}
     .menu-list{display: inline-flex; }
+
     .menu-item{color: var(--navyblue, #2E2F42);
     font-family: "Roboto"sans-serif;
     font-size: 16px;
@@ -54,10 +56,11 @@ text-transform: uppercase;}
       letter-spacing: 0.02;
       font-style: normal;
     }
+    .address-list:hover,
+    .address-list:focus{background-color: #404bbf;}
     .address-item{
       letter-spacing: 0.02;
       list-style-type: none;
     }
     .address-item:focus,
     .address-item:hover{background-color: #404bbf;}
-    
