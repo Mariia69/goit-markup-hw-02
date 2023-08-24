@@ -38,7 +38,6 @@ text-transform: uppercase;}
     line-height: 1.16; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;}
-    .menu-list{display: inline-flex; }
 
     .menu-item{color: var(--navyblue, #2E2F42);
     font-family: "Roboto"sans-serif;
@@ -60,8 +59,11 @@ text-transform: uppercase;}
     .address-list:focus{
       color: #404bbf;}
     .address-item{
-      letter-spacing: 0.02;
-      list-style-type: none;
+      color: #434455;
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
     }
     .address-item:focus,
     .address-item:hover{color: #404bbf;}
@@ -76,6 +78,8 @@ font-weight: 700;
 line-height: 1.07; /* 107.143% */
 letter-spacing: 0.02em;
 }
+.haro-title:focus,
+.haro-title:hover{color: #404bbf;}
 .haro-button{border-radius: 4px;
   background-color: #4D5AE5;
   font-weight: 500;
@@ -101,9 +105,9 @@ font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;}
   /* Our Team */
-.team-page{
-  background-color:#F4F4FD;
-}
+
+.team-page{background-color: #FFF;}
+
 .our-team{
   color: #2E2F42;
 text-align: center;
@@ -143,16 +147,14 @@ line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
 text-transform: capitalize;
   }
-  .portfolio-img{
-    background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
-  }
+
   .portfolio-title{color:#2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;}
-  .portfolio-text{color: #2E2F42;
+  .portfolio-text{color:#434455;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5; /* 150% */
