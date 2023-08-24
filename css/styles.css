@@ -30,7 +30,7 @@ line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;}
 .logo:focus,
-.logo:hover{background-color: #404bbf;}
+.logo:hover{color: #404bbf;}
 
 .studio{color: #2E2F42;
     font-family: "Raleway", sans-serif;
@@ -49,7 +49,7 @@ text-transform: uppercase;}
     text-decoration: none;
     }
     .menu-item:hover,
-    .menu-item:focus{background-color: #404bbf;}
+    .menu-item:focus{color: #404bbf;}
     .address-list{
       color: #434455;
       line-height: 1.5;
@@ -57,13 +57,14 @@ text-transform: uppercase;}
       font-style: normal;
     }
     .address-list:hover,
-    .address-list:focus{background-color: #404bbf;}
+    .address-list:focus{
+      color: #404bbf;}
     .address-item{
       letter-spacing: 0.02;
       list-style-type: none;
     }
     .address-item:focus,
-    .address-item:hover{background-color: #404bbf;}
+    .address-item:hover{color: #404bbf;}
 /* Hero Image */
 .haro-page{background-color: #2E2F42;}
 .haro-title{
@@ -135,7 +136,6 @@ text-transform: capitalize;
   }
   .logo-portfolio{
     color: #2E2F42;
-text-align: center;
 font-family: "Roboto", sans-serif;
 font-size: 36px;
 font-weight: 700;
