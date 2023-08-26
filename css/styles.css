@@ -16,7 +16,6 @@ body{font-family: "Roboto", sans-serif;
     color: #434455}
 
     .header-page {justify-content: center;
-    flex-shrink: 0;
   background: #fff;
 }
 
@@ -79,7 +78,7 @@ letter-spacing: 0.02em;
 }
 .haro-title:focus,
 .haro-title:hover{color: #404bbf;}
-.haro-button{border-radius: 4px;
+.haro-button{
   background-color: #4D5AE5;
   font-weight: 500;
   line-height: 1.5;
@@ -117,7 +116,6 @@ line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.team-item{background-color: #ffffff;}
 .team-list{background-color: #ffffff;}
 .team-title{color: #2E2F42;
   text-align: center;
