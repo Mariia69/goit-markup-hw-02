@@ -12,7 +12,6 @@ button{
   cursor: pointer;
 }
 body{font-family: "Roboto", sans-serif;
-    border-bottom: 1px solid #E7E9FC;
     background: #FFF;
     color: #434455}
 
@@ -119,6 +118,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .team-item{background-color: #ffffff;}
+.team-list{background-color: #ffffff;}
 .team-title{color: #2E2F42;
   text-align: center;
   font-family: "Roboto", sans-serif;
