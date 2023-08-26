@@ -68,7 +68,7 @@ letter-spacing: 0.02em;
     .address-item:focus,
     .address-item:hover{color: #404bbf;}
 /* Hero Image */
-.haro-page{background-color: #404bbf;}
+.haro-page{background-color: #2E2F42;}
 .haro-title{
   color: #fff;
 text-align: center;
@@ -89,7 +89,7 @@ letter-spacing: 0.02em;
 
   }
   .haro-button:focus,
-  .haro-button:hover{color:#404bbf}
+  .haro-button:hover{background-color:#404bbf}
 /* Advantage */
 .advantages-page{
   background-color: #FFF;
